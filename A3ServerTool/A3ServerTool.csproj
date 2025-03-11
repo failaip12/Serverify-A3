@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net9.0-windows7.0</TargetFramework>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>A3ServerTool</RootNamespace>
@@ -10,19 +10,20 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MahApps.Metro">
-      <Version>2.4.9</Version>
+      <Version>2.4.10</Version>
     </PackageReference>
     <PackageReference Include="MahApps.Metro.IconPacks.Material">
-      <Version>4.11.0</Version>
+      <Version>5.1.0</Version>
     </PackageReference>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="9.0.3" />
     <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf">
-      <Version>1.1.39</Version>
+      <Version>1.1.135</Version>
     </PackageReference>
-    <PackageReference Include="MvvmLightStd10">
+	<PackageReference Include="MvvmLightStd10">
       <Version>5.4.1.2</Version>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
-      <Version>13.0.2</Version>
+      <Version>13.0.3</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
